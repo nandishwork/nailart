@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Agraham';
+  src: url('/fonts/Agraham.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-agraham: "Agraham", serif;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-white text-black;
+  margin: 0;
+}
+
+h1, h2, h3, .logo {
+  font-family: "Playfair Display", serif;
+}
+
+/* Custom Scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
