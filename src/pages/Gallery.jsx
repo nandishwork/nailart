@@ -50,7 +50,7 @@ const Gallery = () => {
               <img 
                 src={src} 
                 alt={`Archive ${index}`} 
-                className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-[1.5s] ease-out group-hover:scale-105"
+                className="w-full h-auto object-cover transition-all duration-[1.5s] ease-out group-hover:scale-105"
               />
               {/* Subtle hover overlay */}
               <div className="absolute inset-0 bg-black/5 opacity-100 group-hover:opacity-0 transition-opacity duration-700 pointer-events-none" />

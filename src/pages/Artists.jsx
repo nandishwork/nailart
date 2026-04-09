@@ -63,7 +63,7 @@ const Artists = () => {
                     <img 
                       src={artist.image} 
                       alt={artist.name} 
-                      className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                      className="w-full h-full object-cover transition-all duration-1000"
                     />
                   ) : (
                     /* Empty space for user's image */

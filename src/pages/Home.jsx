@@ -5,13 +5,13 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero Banner Section */}
-      <section className="relative h-[80vh] lg:h-screen w-full overflow-hidden flex items-center">
+      <section className="relative h-[60vh] lg:h-screen w-full overflow-hidden flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1709102125947-5037b0983325?q=80&w=1200&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1494919138911-02d403edd88d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             alt="HIVNK Couture" 
-            className="w-full h-full object-cover scale-[1.02] grayscale"
+            className="w-full h-full object-cover object-top scale-[1.02]"
           />
           {/* Subtle Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/40 to-transparent z-10 hidden lg:block" />
@@ -65,10 +65,10 @@ const Home = () => {
       </section>
 
       {/* About Section - Redesigned to White Aesthetic */}
-      <section className="py-20 lg:py-56 bg-white text-black px-6 lg:px-24 overflow-hidden">
+      <section className="pt-12 pb-20 lg:py-56 bg-white text-black px-6 lg:px-24 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           
-          <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-32 mb-16 lg:mb-32">
+          <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-32 mb-10 lg:mb-32">
             <div className="w-full lg:w-1/2">
               <span className="text-[10px] uppercase tracking-[0.5em] text-black/30 mb-8 block">Atelier Philosophy</span>
               <h2 className="text-5xl lg:text-[10rem] font-agraham mb-12 leading-[0.8] tracking-tighter">Beyond <br/>Perfection</h2>
@@ -93,7 +93,7 @@ const Home = () => {
           </div>
 
           {/* Unique Photo Layout */}
-          <div className="grid grid-cols-12 gap-4 lg:gap-8 items-stretch mb-20 lg:mb-40">
+          <div className="grid grid-cols-12 gap-4 lg:gap-8 items-stretch mb-12 lg:mb-40">
             <div className="col-span-12 lg:col-span-7 aspect-[4/5] lg:aspect-square overflow-hidden">
                <img src="https://images.unsplash.com/photo-1659990668491-9bcdc5b06338?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" alt="Main Art" />
             </div>
