@@ -35,11 +35,11 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-32 pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-24 lg:pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Editorial Header */}
-        <header className="mb-32">
+        <header className="mb-16 lg:mb-32">
           <span className="text-[10px] uppercase tracking-[0.5em] text-black/30 mb-4 block">The Experience</span>
           <h1 className="text-7xl lg:text-[10rem] font-agraham text-black leading-none lowercase tracking-tighter">
             Treatments
@@ -50,7 +50,7 @@ const Services = () => {
         </header>
 
         {/* Services List - Staggered Editorial Layout */}
-        <div className="space-y-48 lg:space-y-64">
+        <div className="space-y-24 lg:space-y-64">
           {services.map((service, index) => (
             <div key={index} className={`flex flex-col lg:flex-row items-center gap-16 lg:gap-32 ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
               
@@ -90,7 +90,7 @@ const Services = () => {
         </div>
 
         {/* Global CTA */}
-        <div className="mt-60 py-32 border-t border-black/5 text-center">
+        <div className="mt-32 lg:mt-60 py-20 lg:py-32 border-t border-black/5 text-center">
             <span className="text-[10px] uppercase tracking-[0.6em] text-black/30 mb-8 block">Ready for the transformation?</span>
             <h3 className="text-4xl lg:text-8xl font-agraham mb-12">Book Your Session</h3>
             <button className="px-16 py-6 bg-black text-white text-[10px] uppercase tracking-[0.5em] hover:px-20 transition-all duration-700">

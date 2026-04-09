@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="bg-white">
       {/* Hero Banner Section */}
-      <section className="relative h-screen w-full overflow-hidden flex items-center">
+      <section className="relative h-[80vh] lg:h-screen w-full overflow-hidden flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -26,7 +26,7 @@ const Home = () => {
               The New Era of Aesthetic
             </span>
             
-            <h1 className="text-[22vw] sm:text-[18vw] lg:text-[10rem] font-agraham leading-[0.8] mb-8 text-black transition-all duration-1000">
+            <h1 className="text-[20vw] sm:text-[15vw] lg:text-[10rem] font-agraham leading-[0.8] mb-8 text-black transition-all duration-1000">
               HIVNK
             </h1>
             
@@ -65,13 +65,13 @@ const Home = () => {
       </section>
 
       {/* About Section - Redesigned to White Aesthetic */}
-      <section className="py-32 lg:py-56 bg-white text-black px-6 lg:px-24 overflow-hidden">
+      <section className="py-20 lg:py-56 bg-white text-black px-6 lg:px-24 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           
-          <div className="flex flex-col lg:flex-row items-start gap-16 lg:gap-32 mb-32">
+          <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-32 mb-16 lg:mb-32">
             <div className="w-full lg:w-1/2">
               <span className="text-[10px] uppercase tracking-[0.5em] text-black/30 mb-8 block">Atelier Philosophy</span>
-              <h2 className="text-6xl lg:text-[10rem] font-agraham mb-12 leading-[0.8] tracking-tighter">Beyond <br/>Perfection</h2>
+              <h2 className="text-5xl lg:text-[10rem] font-agraham mb-12 leading-[0.8] tracking-tighter">Beyond <br/>Perfection</h2>
               <div className="flex items-center space-x-8 mt-12">
                 <div className="w-16 h-[1px] bg-black" />
                 <p className="text-black/50 leading-relaxed text-sm lg:text-base font-light max-w-sm italic">
@@ -93,7 +93,7 @@ const Home = () => {
           </div>
 
           {/* Unique Photo Layout */}
-          <div className="grid grid-cols-12 gap-4 lg:gap-8 items-stretch mb-40">
+          <div className="grid grid-cols-12 gap-4 lg:gap-8 items-stretch mb-20 lg:mb-40">
             <div className="col-span-12 lg:col-span-7 aspect-[4/5] lg:aspect-square overflow-hidden">
                <img src="https://images.unsplash.com/photo-1659990668491-9bcdc5b06338?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" alt="Main Art" />
             </div>
@@ -113,7 +113,7 @@ const Home = () => {
           </div>
 
           {/* Why Choose Us (Trust Section) */}
-          <section className="py-24 border-t border-black/5">
+          <section className="py-12 lg:py-24 border-t border-black/5">
              <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-24">
                 <div className="lg:w-1/3">
                    <span className="text-[10px] uppercase tracking-[0.5em] text-black/30 mb-6 block font-bold">The Standard</span>
@@ -142,8 +142,8 @@ const Home = () => {
           </section>
 
           {/* Rating / Testimonials Section */}
-          <section className="py-24 border-t border-black/5">
-             <div className="text-center mb-20">
+          <section className="py-16 lg:py-24 border-t border-black/5">
+             <div className="text-center mb-12 lg:mb-20">
                 <span className="text-[10px] uppercase tracking-[0.6em] text-black/30 mb-6 block font-bold">Client Testimonials</span>
                 <div className="flex justify-center space-x-1 mb-6">
                    {[1, 2, 3, 4, 5].map((star) => (

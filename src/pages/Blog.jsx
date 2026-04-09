@@ -29,11 +29,11 @@ const Blog = () => {
   ];
 
   return (
-    <div className="pt-32 pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-16 lg:pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* New Editorial Header */}
-        <header className="mb-32 relative">
+        <header className="mb-16 lg:mb-32 relative">
           <div className="flex flex-col lg:flex-row items-end justify-between border-b border-black pb-12">
             <div className="relative">
               <span className="text-[10px] uppercase tracking-[0.8em] text-black/40 mb-2 block">Volume 01 // Archive</span>
@@ -53,7 +53,7 @@ const Blog = () => {
         </header>
 
         {/* Featured Post - Redesigned */}
-        <section className="mb-40 group cursor-pointer relative">
+        <section className="mb-20 lg:mb-40 group cursor-pointer relative">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-center">
              <div className="w-full lg:w-3/5 relative overflow-hidden aspect-[16/10]">
                 <img 
@@ -81,7 +81,7 @@ const Blog = () => {
         </section>
 
         {/* Post Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 lg:gap-y-24">
           {posts.map((post) => (
             <article key={post.id} className="group cursor-pointer">
               <div className="aspect-[4/5] bg-zinc-100 overflow-hidden mb-8">
@@ -109,7 +109,7 @@ const Blog = () => {
         </div>
 
         {/* Load More / Newsletter */}
-        <div className="mt-40 pt-24 border-t border-black/5 text-center">
+        <div className="mt-20 lg:mt-40 pt-16 lg:pt-24 border-t border-black/5 text-center">
             <h4 className="text-3xl font-agraham mb-8">Subscribe to the Muse</h4>
             <p className="text-black/40 text-xs tracking-widest uppercase mb-12">Weekly editorial direct to your inbox</p>
             <div className="max-w-md mx-auto flex">

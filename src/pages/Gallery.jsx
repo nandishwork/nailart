@@ -26,11 +26,11 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="pt-32 pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-16 lg:pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Header */}
-        <header className="mb-24 relative border-b border-black pb-12">
+        <header className="mb-12 lg:mb-24 relative border-b border-black pb-12">
           <span className="text-[10px] uppercase tracking-[0.8em] text-black/30 mb-2 block">The Visual Archive</span>
           <h1 className="mb-3 mt-7 text-6xl md:text-9xl lg:text-[12rem] font-agraham text-black leading-[0.7] lowercase tracking-tighter -ml-2 lg:-ml-6">
             Gallery
@@ -66,7 +66,7 @@ const Gallery = () => {
         </div>
 
         {/* Closing Footer */}
-        <div className="mt-40 text-center border-t border-black/5 pt-20">
+        <div className="mt-20 lg:mt-40 text-center border-t border-black/5 pt-12 lg:pt-20">
             <span className="text-[10px] uppercase tracking-[0.6em] text-black/20 mb-4 block italic">End of Archive</span>
             <p className="text-black/40 text-[9px] uppercase tracking-widest leading-loose">
                ALL IMAGES ARE PROPERTY OF HIVNK ATELIER & ASSOCIATED ARTISTS.

@@ -29,11 +29,11 @@ const Artists = () => {
   ];
 
   return (
-    <div className="pt-32 pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-16 lg:pb-24 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Header */}
-        <header className="mb-32 relative">
+        <header className="mb-16 lg:mb-32 relative">
           <div className="flex flex-col lg:flex-row items-end justify-between border-b border-black pb-12">
             <div className="relative">
               <span className="text-[10px] uppercase tracking-[0.8em] text-black/40 mb-2 block">The Collective</span>
@@ -50,7 +50,7 @@ const Artists = () => {
         </header>
 
         {/* Artists List with Effects */}
-        <div className="space-y-40">
+        <div className="space-y-24 lg:space-y-40">
           {artists.map((artist, index) => (
             <div 
               key={artist.id} 
@@ -123,7 +123,7 @@ const Artists = () => {
         </div>
 
         {/* Call to action */}
-        <div className="mt-60 py-32 border-t border-black/5 text-center">
+        <div className="mt-32 lg:mt-60 py-20 lg:py-32 border-t border-black/5 text-center">
             <span className="text-[10px] uppercase tracking-[0.6em] text-black/30 mb-8 block">Join the Collective</span>
             <h3 className="text-4xl lg:text-7xl font-agraham mb-12">Are you an Artist?</h3>
             <button className="px-12 py-5 bg-black text-white text-[10px] uppercase tracking-[0.4em] hover:px-16 transition-all duration-700">

@@ -63,24 +63,24 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="pt-32 pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-24 lg:pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Simplified Editorial Header */}
-        <header className="mb-32 text-center lg:text-left">
+        <header className="mb-16 lg:mb-32 text-center lg:text-left">
           <div className="flex flex-col lg:flex-row items-baseline gap-4 mb-4">
              <span className="text-[10px] uppercase tracking-[0.8em] text-black/30">Archives 2026 // Menu</span>
           </div>
           <h1 className="mt-7 text-6xl md:text-8xl lg:text-[12rem] font-agraham text-black leading-[0.7] lowercase tracking-tighter">
             Pricing
           </h1>
-          <p className="mt-20 text-black/40 text-[10px] uppercase tracking-[0.4em] italic font-light">
+          <p className="mt-12 lg:mt-20 text-black/40 text-[10px] uppercase tracking-[0.4em] italic font-light">
              Refining the architecture of the fingertip. Starting from ₹150.
           </p>
         </header>
 
         {/* Pricing List - Spaced Out for Readability */}
-        <div className="space-y-40">
+        <div className="space-y-24 lg:space-y-40">
           {categories.map((cat) => (
             <section key={cat.id} className="relative">
               <div className="flex flex-col lg:flex-row gap-12 lg:gap-32">
@@ -142,7 +142,7 @@ const Pricing = () => {
         </div>
 
         {/* Global Footer Note */}
-        <div className="mt-60 pt-20 border-t border-black/5 text-center px-4">
+        <div className="mt-32 lg:mt-60 pt-12 lg:pt-20 border-t border-black/5 text-center px-4">
            <h3 className="text-3xl lg:text-5xl font-agraham mb-8">Consultation Required?</h3>
            <p className="max-w-xl mx-auto text-black/40 text-xs tracking-widest leading-relaxed uppercase mb-12">
              For bridal and custom designs, we recommend a 15-minute digital consultation to perfectly match your aesthetic vision with our technical expertise.

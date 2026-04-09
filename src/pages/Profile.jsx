@@ -17,11 +17,11 @@ const Profile = () => {
   ];
 
   return (
-    <div className="pt-32 pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-24 lg:pb-40 bg-white min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Profile Header */}
-        <header className="mb-24 flex flex-col md:flex-row md:items-end justify-between border-b border-black/5 pb-12">
+        <header className="mb-12 lg:mb-24 flex flex-col md:flex-row md:items-end justify-between border-b border-black/5 pb-8 lg:pb-12">
           <div>
              <span className="text-[10px] uppercase tracking-[0.6em] text-black/30 mb-4 block font-bold">Client Archive</span>
              <h1 className="text-7xl lg:text-9xl font-agraham text-black leading-none lowercase tracking-tighter">
@@ -40,7 +40,7 @@ const Profile = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
           
           {/* Left Column - Main Activity */}
-          <div className="lg:col-span-8 space-y-24">
+          <div className="lg:col-span-8 space-y-16 lg:space-y-24">
             
             {/* Upcoming Section */}
             <section>
@@ -128,7 +128,7 @@ const Profile = () => {
           </div>
 
           {/* Right Column - Loyalty & Feedback */}
-          <div className="lg:col-span-4 space-y-16">
+          <div className="lg:col-span-4 space-y-12 lg:space-y-16">
             
             {/* Loyalty Point Progress */}
             <div className="p-10 border border-black/5 bg-zinc-50 relative overflow-hidden">

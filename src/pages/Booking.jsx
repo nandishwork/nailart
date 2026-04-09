@@ -26,11 +26,11 @@ const Booking = () => {
   ];
 
   return (
-    <div className="pt-32 pb-40 bg-zinc-50 min-h-screen selection:bg-black selection:text-white">
+    <div className="pt-20 lg:pt-32 pb-24 lg:pb-40 bg-zinc-50 min-h-screen selection:bg-black selection:text-white">
       <div className="container mx-auto px-6 lg:px-24">
         
         {/* Editorial Header */}
-        <header className="mb-24 text-center">
+        <header className="mb-12 lg:mb-24 text-center">
           <span className="text-[10px] uppercase tracking-[0.6em] text-black/30 mb-4 block font-bold">Atelier Reserve</span>
           <h1 className="text-6xl lg:text-[10rem] font-agraham text-black leading-none lowercase tracking-tighter">
             Booking
@@ -281,7 +281,7 @@ const Booking = () => {
         </div>
 
         {/* Support Link */}
-        <div className="mt-16 text-center">
+        <div className="mt-12 lg:mt-16 text-center">
            <p className="text-black/30 text-[9px] uppercase tracking-widest font-black">
               SECURE LINK // ENCRYPTION ENABLED <br/>
               <a href="#" className="text-black inline-block mt-4 border-b border-black/20 pb-0.5">CONTACT CONCIERGE</a>

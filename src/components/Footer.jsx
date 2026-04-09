@@ -4,9 +4,9 @@ import { ArrowRight } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white pt-24 pb-12 border-t border-white/5">
+    <footer className="bg-black text-white pt-16 lg:pt-24 pb-8 lg:pb-12 border-t border-white/5">
       <div className="container mx-auto px-6 lg:px-24">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-16 mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-16 mb-16 lg:mb-24">
           
           {/* Brand Info */}
           <div className="lg:col-span-2">
